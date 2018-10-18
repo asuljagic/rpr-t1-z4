@@ -38,7 +38,6 @@ public class Program {
                     int sifra = ulaz.nextInt();
                     for (Predmet p : predmeti)
                     if (p.sifraPredmeta == sifra) izabraniPredmet = p;
-                    //OVDJE MOZE BITI I IZBOR IZMEDJU VEC UPISANIH STUDENATA ALI MRSKO MI
                     System.out.println("Unesite ime studenta: ");
                     String ime2 = ulaz.next();
                     System.out.println("Unesite prezime studenta: ");
@@ -48,7 +47,6 @@ public class Program {
                     Student st = new Student(indeks2, ime2, prezime2);
                     studenti[studenti.length - 1] = st;
                     Arrays.copyOf(studenti, studenti.length);
-                    //BITNA LINIJA
                     izabraniPredmet.upisi(st);
                     break;
                 case 3:
@@ -57,7 +55,6 @@ public class Program {
                     int sifra2 = ulaz.nextInt();
                     for (Predmet p : predmeti)
                         if (p.sifraPredmeta == sifra2) izabraniPredmet2 = p;
-                    //OVDJE MOZE BITI I IZBOR IZMEDJU VEC UPISANIH STUDENATA ALI MRSKO MI
                     System.out.println("Unesite ime studenta: ");
                     String ime3 = ulaz.next();
                     System.out.println("Unesite prezime studenta: ");
@@ -67,7 +64,6 @@ public class Program {
                     Student st2 = new Student(indeks3, ime3, prezime3);
                     studenti[studenti.length - 1] = st2;
                     Arrays.copyOf(studenti, studenti.length);
-                    //BITNA LINIJA
                     izabraniPredmet2.ispisi(st2);
                     break;
                 case 4:
