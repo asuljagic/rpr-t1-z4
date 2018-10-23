@@ -32,12 +32,12 @@ public class Predmet {
         this.sifraPredmeta = sifraPredmeta;
     }
 
-    public int getMaxBrPredmeta() {
+    public int getMaxBrStudenata() {
         return maxBrStudenata;
     }
 
-    public void setMaxBrPredmeta(int maxBrPredmeta) {
-        this.maxBrStudenata = maxBrPredmeta;
+    public void setMaxBrStudenata(int maxBrStudenata) {
+        this.maxBrStudenata = maxBrStudenata;
     }
 
     public Predmet() {
